@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>323-Counter</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>323-Counter-App</title>
+    <script src="https://cdn.tailwindcss.com"></script>   
 </head>
 <body class="flex flex-col items-center mt-24 font-sans">
+    <header class="bg-gray-900 text-white w-full shadow-md">
+        <div class="max-w-4xl mx-auto flex justify-between items-center px-6 py-4">
+            <h1 class="text-xl font-bold tracking-wide">🚀 323 Counter App</h1>
+            <p class="text-sm text-gray-300">Functional JavaScript Demo</p>
+        </div>
+    </header>
 
-    <h1 class="text-3xl font-bold mb-6">323-Counter</h1>
+    <h1 class="text-3xl font-bold mb-6">323-Counter-App</h1>
 
     <div id="counter" class="text-6xl mb-6">0</div>
 
     <div>
         <button id="decrease" class="bg-red-500 hover:bg-red-600 text-white font-bold px-6 py-3 m-2 rounded transition-colors">
-            ⬇️ Runter
+            ⬇️ Decrease
         </button>
         <button id="increase" class="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 m-2 rounded transition-colors">
-            ⬆️ Hoch
-        </button>
+            ⬆️ Increase
+        </button>     
     </div> 
+    <footer class="bg-gray-900 text-gray-300 text-center py-4">
+        <p class="text-sm">
+            © 2026 323-Counter-App · Marianne Stieber · Built with Tailwind & JavaScript
+        </p>
+    </footer>
+    <script src="index.js"></script>
 </body>
 </html>
